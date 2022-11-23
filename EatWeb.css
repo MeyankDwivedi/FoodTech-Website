@@ -1,0 +1,30 @@
+#myHeading{
+    font-family: 'Pacifico', cursive;
+    color: yellow;
+    width: 7%;
+    height: 7%;
+}
+#brandImage{
+   width: 7%;
+   height: 7%;
+   color: yellow;
+}
+
+#Division1{
+    padding: 0%;
+    margin: 0%;
+}
+
+#headDiv{
+    padding: 0%;
+    margin: 0%;
+}
+
+.backgroundImage
+{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}

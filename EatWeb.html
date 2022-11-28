@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eat Whatever You Want</title>
+    <title>EatAll Login Page</title>
     <!-- Bootstrap Starts-->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
@@ -26,14 +26,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="navbar-fixed-top" id="headDiv"><img src="Brand-Logo.png" class="navbar-brand" id="brandImage" alt="">
         <h1 class="navbar-brand" id="myHeading">EatAll</h1>
     </div>
-    <div id="Division1"><img src="BGI1.jpg" alt="" class="backgroundImage">
+    <div id="Division1"><div class="container firstContainer">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="tagline">Welcome to EatAll. Now Eat as much as you want without feeling Homesick. <br><br> Get everything at 50% Discount.</h1>
+            <div id="loginCard">
+                <form action="">
+                    <input type="text" onfocus="this.value=''" value="LoginId" class="forminputs" id="loginId"><br>
+                    <input type="password" onfocus="this.value=''" value="Password" class="forminputs" id="loginPass"><br>
+                    <input type="button" value="Login" class="forminputs btn-primary text-center" id="loginButton">
+                </form>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img src="BGI1.jpg" alt="" id="backgroundImage1">
+          </div>
+        </div>
     </div>
-
+    <script src="EatWeb.js"></script>
 </body>
 
 </html>
